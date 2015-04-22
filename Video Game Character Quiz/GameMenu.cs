@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Media;
 using System.Runtime.InteropServices;
-
+//mitch is NOT cool :}
 namespace Video_Game_Character_Quiz
 {
     public partial class GameMenu : Form
