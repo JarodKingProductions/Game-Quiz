@@ -24,7 +24,7 @@ namespace Video_Game_Character_Quiz
         }
 
         int totalScore = 0;
-       // string answer;
+       //pokemon
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void answer01_Click(object sender, EventArgs e)
         {
@@ -112,6 +112,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
+        //kirby
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer11_Click(object sender, EventArgs e)
@@ -183,6 +184,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
+        //mario
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer21_Click(object sender, EventArgs e)
@@ -254,7 +256,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-
+        //greg
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer31_Click(object sender, EventArgs e)
@@ -328,7 +330,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-
+        //LofZ
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer41_Click(object sender, EventArgs e)
@@ -370,24 +372,14 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-
+        //sam
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer51_Click(object sender, EventArgs e)
         {
-            answersGroup0.Visible = false;
-            answersGroup1.Visible = false;
-            answersGroup2.Visible = false;
-            answersGroup3.Visible = false;
-            answersGroup4.Visible = false;
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
@@ -399,19 +391,9 @@ namespace Video_Game_Character_Quiz
 
         private void answer52_Click(object sender, EventArgs e)
         {
-            answersGroup0.Visible = false;
-            answersGroup1.Visible = false;
-            answersGroup2.Visible = false;
-            answersGroup3.Visible = false;
-            answersGroup4.Visible = false;
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
@@ -422,19 +404,9 @@ namespace Video_Game_Character_Quiz
 
         private void answer53_Click(object sender, EventArgs e)
         {
-            answersGroup0.Visible = false;
-            answersGroup1.Visible = false;
-            answersGroup2.Visible = false;
-            answersGroup3.Visible = false;
-            answersGroup4.Visible = false;
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
@@ -442,7 +414,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-
+       //yoshi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer61_Click(object sender, EventArgs e)
@@ -458,7 +430,7 @@ namespace Video_Game_Character_Quiz
 
         private void answer62_Click(object sender, EventArgs e)
         {
-            answersGroup6.Visible = false;
+            answersGroup6.Visible = true;
 
             pictureBox7.Visible = false;
 
@@ -469,7 +441,7 @@ namespace Video_Game_Character_Quiz
 
         private void answer63_Click(object sender, EventArgs e)
         {
-            answersGroup6.Visible = false;
+            answersGroup6.Visible = true;
 
             pictureBox7.Visible = false;
 

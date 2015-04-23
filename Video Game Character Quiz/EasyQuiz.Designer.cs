@@ -389,8 +389,7 @@
             this.answersGroup6.Size = new System.Drawing.Size(345, 84);
             this.answersGroup6.TabIndex = 3;
             this.answersGroup6.TabStop = false;
-            this.answersGroup6.Text = "Answers";
-            this.answersGroup6.Visible = false;
+            this.answersGroup6.Text = "Answers:";
             // 
             // answer63
             // 
