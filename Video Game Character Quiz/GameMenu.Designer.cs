@@ -38,7 +38,7 @@
             this.instuctionsForm = new System.Windows.Forms.Button();
             this.creditsForm = new System.Windows.Forms.Button();
             this.easyQuiz = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.linc_HiddenButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.menuBack)).BeginInit();
             this.SuspendLayout();
@@ -130,14 +130,15 @@
             this.easyQuiz.UseVisualStyleBackColor = true;
             this.easyQuiz.Click += new System.EventHandler(this.easyQuiz_Click_1);
             // 
-            // button2
+            // linc_HiddenButton
             // 
-            this.button2.Location = new System.Drawing.Point(143, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 40);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.linc_HiddenButton.Location = new System.Drawing.Point(143, 12);
+            this.linc_HiddenButton.Name = "linc_HiddenButton";
+            this.linc_HiddenButton.Size = new System.Drawing.Size(75, 40);
+            this.linc_HiddenButton.TabIndex = 11;
+            this.linc_HiddenButton.Text = "Medium";
+            this.linc_HiddenButton.UseVisualStyleBackColor = true;
+            this.linc_HiddenButton.Click += new System.EventHandler(this.linc_HiddenButton_Click);
             // 
             // button3
             // 
@@ -155,7 +156,7 @@
             this.BackColor = System.Drawing.SystemColors.MenuText;
             this.ClientSize = new System.Drawing.Size(369, 292);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.linc_HiddenButton);
             this.Controls.Add(this.easyQuiz);
             this.Controls.Add(this.creditsForm);
             this.Controls.Add(this.instuctionsForm);
@@ -186,7 +187,7 @@
         private System.Windows.Forms.Button instuctionsForm;
         private System.Windows.Forms.Button creditsForm;
         private System.Windows.Forms.Button easyQuiz;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button linc_HiddenButton;
         private System.Windows.Forms.Button button3;
     }
 }

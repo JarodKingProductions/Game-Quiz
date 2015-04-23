@@ -336,7 +336,7 @@ namespace Video_Game_Character_Quiz
         private void answer41_Click(object sender, EventArgs e)
         {
             answersGroup4.Visible = false;
-            answersGroup5.Visible = true;
+            answersGroup6.Visible = true;
 
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
@@ -349,7 +349,7 @@ namespace Video_Game_Character_Quiz
         private void answer42_Click(object sender, EventArgs e)
         {
             answersGroup4.Visible = false;
-            answersGroup5.Visible = true;
+            answersGroup6.Visible = true;
 
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
@@ -362,7 +362,7 @@ namespace Video_Game_Character_Quiz
         private void answer43_Click(object sender, EventArgs e)
         {
             answersGroup4.Visible = false;
-            answersGroup5.Visible = true;
+            answersGroup6.Visible = true;
 
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
