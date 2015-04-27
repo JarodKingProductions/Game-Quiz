@@ -121,6 +121,13 @@ namespace Video_Game_Character_Quiz
             this.Close();
         }
 
+        private void linc_HiddenButton_Click(object sender, EventArgs e)
+        {
+            MediumQuiz mediumQuiz = new MediumQuiz();
+            mediumQuiz.ShowDialog(); 
+
+        }
+
 
 
 
