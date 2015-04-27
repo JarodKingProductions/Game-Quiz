@@ -518,6 +518,7 @@ namespace Video_Game_Character_Quiz
 
             pictureBox9.Visible = false;
 
+            totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
@@ -529,7 +530,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox9.Visible = false;
 
-            totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();

@@ -64,6 +64,12 @@
     <Compile Include="GameMenu.Designer.cs">
       <DependentUpon>GameMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="HardQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HardQuiz.Designer.cs">
+      <DependentUpon>HardQuiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="Instructions.cs">
       <SubType>Form</SubType>
     </Compile>
