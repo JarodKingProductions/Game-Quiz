@@ -10,7 +10,7 @@ using System.IO;
 
 namespace Video_Game_Character_Quiz
 {
-    
+    //hi
     public partial class EasyQuiz : Form
     {
         StreamReader inputFile;
