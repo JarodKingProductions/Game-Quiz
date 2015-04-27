@@ -380,6 +380,9 @@ namespace Video_Game_Character_Quiz
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
+
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -391,6 +394,9 @@ namespace Video_Game_Character_Quiz
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
+
             totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
@@ -400,6 +406,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
+
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
 
             totalScoreLabel.Text = totalScore.ToString();
 

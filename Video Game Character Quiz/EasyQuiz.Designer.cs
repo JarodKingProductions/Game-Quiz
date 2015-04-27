@@ -368,7 +368,6 @@
             // 
             // answersGroup4
             // 
-            this.answersGroup4.Controls.Add(this.answersGroup5);
             this.answersGroup4.Controls.Add(this.answer43);
             this.answersGroup4.Controls.Add(this.answer42);
             this.answersGroup4.Controls.Add(this.answer41);
@@ -382,23 +381,23 @@
             // 
             // answersGroup5
             // 
-            this.answersGroup5.Controls.Add(this.answersGroup8);
             this.answersGroup5.Controls.Add(this.answer52);
             this.answersGroup5.Controls.Add(this.answer51);
             this.answersGroup5.Controls.Add(this.answer53);
-            this.answersGroup5.Location = new System.Drawing.Point(0, 0);
+            this.answersGroup5.Location = new System.Drawing.Point(12, 167);
             this.answersGroup5.Name = "answersGroup5";
             this.answersGroup5.Size = new System.Drawing.Size(345, 84);
             this.answersGroup5.TabIndex = 15;
             this.answersGroup5.TabStop = false;
             this.answersGroup5.Text = "Answers:";
+            this.answersGroup5.Visible = false;
             // 
             // answersGroup8
             // 
             this.answersGroup8.Controls.Add(this.answer83);
             this.answersGroup8.Controls.Add(this.answer82);
             this.answersGroup8.Controls.Add(this.answer81);
-            this.answersGroup8.Location = new System.Drawing.Point(0, 0);
+            this.answersGroup8.Location = new System.Drawing.Point(12, 167);
             this.answersGroup8.Name = "answersGroup8";
             this.answersGroup8.Size = new System.Drawing.Size(345, 84);
             this.answersGroup8.TabIndex = 15;
@@ -564,7 +563,7 @@
             this.answersGroup6.Controls.Add(this.answer61);
             this.answersGroup6.Controls.Add(this.answer63);
             this.answersGroup6.Controls.Add(this.answer62);
-            this.answersGroup6.Location = new System.Drawing.Point(0, 0);
+            this.answersGroup6.Location = new System.Drawing.Point(12, 167);
             this.answersGroup6.Name = "answersGroup6";
             this.answersGroup6.Size = new System.Drawing.Size(345, 84);
             this.answersGroup6.TabIndex = 13;
@@ -607,7 +606,6 @@
             this.answersGroup7.Controls.Add(this.answer73);
             this.answersGroup7.Controls.Add(this.answer72);
             this.answersGroup7.Controls.Add(this.answer71);
-            this.answersGroup7.Controls.Add(this.answersGroup6);
             this.answersGroup7.Location = new System.Drawing.Point(12, 167);
             this.answersGroup7.Name = "answersGroup7";
             this.answersGroup7.Size = new System.Drawing.Size(345, 84);
@@ -644,9 +642,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 292);
+            this.Controls.Add(this.answersGroup5);
+            this.Controls.Add(this.answersGroup8);
             this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.answersGroup7);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.answersGroup6);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
