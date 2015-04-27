@@ -128,6 +128,12 @@ namespace Video_Game_Character_Quiz
 
         }
 
+        private void HardQuiz(object sender, EventArgs e)
+        {
+            HardQuiz hardQuiz = new HardQuiz();
+            hardQuiz.ShowDialog(); 
+        }
+
 
 
 
