@@ -504,8 +504,10 @@ namespace Video_Game_Character_Quiz
         private void answer81_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
+            answersGroup9.Visible = true;
 
             pictureBox9.Visible = false;
+            pictureBox10.Visible = true;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -515,8 +517,10 @@ namespace Video_Game_Character_Quiz
         private void answer82_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
+            answersGroup9.Visible = true;
 
             pictureBox9.Visible = false;
+            pictureBox10.Visible = true;
 
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
@@ -527,8 +531,10 @@ namespace Video_Game_Character_Quiz
         private void answer83_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
+            answersGroup9.Visible = true;
 
             pictureBox9.Visible = false;
+            pictureBox10.Visible = true;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -536,6 +542,42 @@ namespace Video_Game_Character_Quiz
         }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+        private void answer91_Click(object sender, EventArgs e)
+        {
+            answersGroup9.Visible = false;
+
+            pictureBox10.Visible = false;
+
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer92_Click(object sender, EventArgs e)
+        {
+            answersGroup9.Visible = false;
+
+            pictureBox10.Visible = false;
+
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer93_Click(object sender, EventArgs e)
+        {
+            answersGroup9.Visible = false;
+
+            pictureBox10.Visible = false;
+
+            totalScore += 1;
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void answer31_MouseEnter(object sender, System.EventArgs e)
         {
