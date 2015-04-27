@@ -55,20 +55,30 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.answersGroup4 = new System.Windows.Forms.GroupBox();
-            this.answersGroup5 = new System.Windows.Forms.GroupBox();
-            this.answersGroup6 = new System.Windows.Forms.GroupBox();
-            this.answer63 = new System.Windows.Forms.Button();
-            this.answer62 = new System.Windows.Forms.Button();
-            this.answer61 = new System.Windows.Forms.Button();
-            this.answer53 = new System.Windows.Forms.Button();
-            this.answer52 = new System.Windows.Forms.Button();
-            this.answer51 = new System.Windows.Forms.Button();
             this.answer43 = new System.Windows.Forms.Button();
             this.answer42 = new System.Windows.Forms.Button();
             this.answer41 = new System.Windows.Forms.Button();
+            this.answer63 = new System.Windows.Forms.Button();
+            this.answer62 = new System.Windows.Forms.Button();
+            this.answer61 = new System.Windows.Forms.Button();
+            this.answer52 = new System.Windows.Forms.Button();
+            this.answer53 = new System.Windows.Forms.Button();
+            this.answer51 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.answersGroup5 = new System.Windows.Forms.GroupBox();
+            this.answersGroup6 = new System.Windows.Forms.GroupBox();
+            this.answer71 = new System.Windows.Forms.Button();
+            this.answer73 = new System.Windows.Forms.Button();
+            this.answer72 = new System.Windows.Forms.Button();
+            this.answersGroup7 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.answersGroup8 = new System.Windows.Forms.GroupBox();
+            this.answer81 = new System.Windows.Forms.Button();
+            this.answer82 = new System.Windows.Forms.Button();
+            this.answer83 = new System.Windows.Forms.Button();
             this.answersGroup0.SuspendLayout();
             this.answersGroup1.SuspendLayout();
             this.answersGroup2.SuspendLayout();
@@ -79,11 +89,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.answersGroup4.SuspendLayout();
-            this.answersGroup5.SuspendLayout();
-            this.answersGroup6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.answersGroup5.SuspendLayout();
+            this.answersGroup6.SuspendLayout();
+            this.answersGroup7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.answersGroup8.SuspendLayout();
             this.SuspendLayout();
             // 
             // Question2
@@ -126,7 +140,7 @@
             // 
             // muffinButton
             // 
-            this.muffinButton.Location = new System.Drawing.Point(18, 257);
+            this.muffinButton.Location = new System.Drawing.Point(12, 257);
             this.muffinButton.Name = "muffinButton";
             this.muffinButton.Size = new System.Drawing.Size(75, 23);
             this.muffinButton.TabIndex = 4;
@@ -365,31 +379,35 @@
             this.answersGroup4.Text = "Answers:";
             this.answersGroup4.Visible = false;
             // 
-            // answersGroup5
+            // answer43
             // 
-            this.answersGroup5.Controls.Add(this.answersGroup6);
-            this.answersGroup5.Controls.Add(this.answer52);
-            this.answersGroup5.Controls.Add(this.answer53);
-            this.answersGroup5.Controls.Add(this.answer51);
-            this.answersGroup5.Location = new System.Drawing.Point(12, 167);
-            this.answersGroup5.Name = "answersGroup5";
-            this.answersGroup5.Size = new System.Drawing.Size(345, 84);
-            this.answersGroup5.TabIndex = 3;
-            this.answersGroup5.TabStop = false;
-            this.answersGroup5.Text = "Answers:";
-            this.answersGroup5.Visible = false;
+            this.answer43.Location = new System.Drawing.Point(264, 19);
+            this.answer43.Name = "answer43";
+            this.answer43.Size = new System.Drawing.Size(75, 48);
+            this.answer43.TabIndex = 2;
+            this.answer43.Text = "Zelda\'s Lullaby";
+            this.answer43.UseVisualStyleBackColor = true;
+            this.answer43.Click += new System.EventHandler(this.answer43_Click);
             // 
-            // answersGroup6
+            // answer42
             // 
-            this.answersGroup6.Controls.Add(this.answer63);
-            this.answersGroup6.Controls.Add(this.answer62);
-            this.answersGroup6.Controls.Add(this.answer61);
-            this.answersGroup6.Location = new System.Drawing.Point(0, 0);
-            this.answersGroup6.Name = "answersGroup6";
-            this.answersGroup6.Size = new System.Drawing.Size(345, 84);
-            this.answersGroup6.TabIndex = 3;
-            this.answersGroup6.TabStop = false;
-            this.answersGroup6.Text = "Answers:";
+            this.answer42.Location = new System.Drawing.Point(141, 19);
+            this.answer42.Name = "answer42";
+            this.answer42.Size = new System.Drawing.Size(75, 48);
+            this.answer42.TabIndex = 1;
+            this.answer42.Text = "Epona\'s Song";
+            this.answer42.UseVisualStyleBackColor = true;
+            this.answer42.Click += new System.EventHandler(this.answer42_Click);
+            // 
+            // answer41
+            // 
+            this.answer41.Location = new System.Drawing.Point(6, 19);
+            this.answer41.Name = "answer41";
+            this.answer41.Size = new System.Drawing.Size(75, 48);
+            this.answer41.TabIndex = 0;
+            this.answer41.Text = "Song of Storms";
+            this.answer41.UseVisualStyleBackColor = true;
+            this.answer41.Click += new System.EventHandler(this.answer41_Click);
             // 
             // answer63
             // 
@@ -421,16 +439,6 @@
             this.answer61.UseVisualStyleBackColor = true;
             this.answer61.Click += new System.EventHandler(this.answer61_Click);
             // 
-            // answer53
-            // 
-            this.answer53.Location = new System.Drawing.Point(264, 19);
-            this.answer53.Name = "answer53";
-            this.answer53.Size = new System.Drawing.Size(75, 48);
-            this.answer53.TabIndex = 2;
-            this.answer53.Text = "Male";
-            this.answer53.UseVisualStyleBackColor = true;
-            this.answer53.Click += new System.EventHandler(this.answer53_Click);
-            // 
             // answer52
             // 
             this.answer52.Location = new System.Drawing.Point(141, 19);
@@ -441,6 +449,16 @@
             this.answer52.UseVisualStyleBackColor = true;
             this.answer52.Click += new System.EventHandler(this.answer52_Click);
             // 
+            // answer53
+            // 
+            this.answer53.Location = new System.Drawing.Point(264, 19);
+            this.answer53.Name = "answer53";
+            this.answer53.Size = new System.Drawing.Size(75, 48);
+            this.answer53.TabIndex = 2;
+            this.answer53.Text = "Male";
+            this.answer53.UseVisualStyleBackColor = true;
+            this.answer53.Click += new System.EventHandler(this.answer53_Click);
+            // 
             // answer51
             // 
             this.answer51.Location = new System.Drawing.Point(6, 19);
@@ -450,36 +468,6 @@
             this.answer51.Text = "Female";
             this.answer51.UseVisualStyleBackColor = true;
             this.answer51.Click += new System.EventHandler(this.answer51_Click);
-            // 
-            // answer43
-            // 
-            this.answer43.Location = new System.Drawing.Point(264, 19);
-            this.answer43.Name = "answer43";
-            this.answer43.Size = new System.Drawing.Size(75, 48);
-            this.answer43.TabIndex = 2;
-            this.answer43.Text = "Zelda\'s Lullaby";
-            this.answer43.UseVisualStyleBackColor = true;
-            this.answer43.Click += new System.EventHandler(this.answer43_Click);
-            // 
-            // answer42
-            // 
-            this.answer42.Location = new System.Drawing.Point(141, 19);
-            this.answer42.Name = "answer42";
-            this.answer42.Size = new System.Drawing.Size(75, 48);
-            this.answer42.TabIndex = 1;
-            this.answer42.Text = "Epona\'s Song";
-            this.answer42.UseVisualStyleBackColor = true;
-            this.answer42.Click += new System.EventHandler(this.answer42_Click);
-            // 
-            // answer41
-            // 
-            this.answer41.Location = new System.Drawing.Point(6, 19);
-            this.answer41.Name = "answer41";
-            this.answer41.Size = new System.Drawing.Size(75, 48);
-            this.answer41.TabIndex = 0;
-            this.answer41.Text = "Song of Storms";
-            this.answer41.UseVisualStyleBackColor = true;
-            this.answer41.Click += new System.EventHandler(this.answer41_Click);
             // 
             // pictureBox6
             // 
@@ -514,12 +502,151 @@
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Visible = false;
             // 
+            // answersGroup5
+            // 
+            this.answersGroup5.Controls.Add(this.answer51);
+            this.answersGroup5.Controls.Add(this.answer53);
+            this.answersGroup5.Controls.Add(this.answer52);
+            this.answersGroup5.Location = new System.Drawing.Point(12, 167);
+            this.answersGroup5.Name = "answersGroup5";
+            this.answersGroup5.Size = new System.Drawing.Size(345, 84);
+            this.answersGroup5.TabIndex = 12;
+            this.answersGroup5.TabStop = false;
+            this.answersGroup5.Text = "Answers:";
+            this.answersGroup5.Visible = false;
+            // 
+            // answersGroup6
+            // 
+            this.answersGroup6.Controls.Add(this.answer61);
+            this.answersGroup6.Controls.Add(this.answer63);
+            this.answersGroup6.Controls.Add(this.answer62);
+            this.answersGroup6.Location = new System.Drawing.Point(12, 167);
+            this.answersGroup6.Name = "answersGroup6";
+            this.answersGroup6.Size = new System.Drawing.Size(345, 84);
+            this.answersGroup6.TabIndex = 13;
+            this.answersGroup6.TabStop = false;
+            this.answersGroup6.Text = "Answers:";
+            this.answersGroup6.Visible = false;
+            // 
+            // answer71
+            // 
+            this.answer71.Location = new System.Drawing.Point(6, 19);
+            this.answer71.Name = "answer71";
+            this.answer71.Size = new System.Drawing.Size(75, 48);
+            this.answer71.TabIndex = 0;
+            this.answer71.Text = "Kriby";
+            this.answer71.UseVisualStyleBackColor = true;
+            this.answer71.Click += new System.EventHandler(this.answer71_Click);
+            // 
+            // answer73
+            // 
+            this.answer73.Location = new System.Drawing.Point(264, 19);
+            this.answer73.Name = "answer73";
+            this.answer73.Size = new System.Drawing.Size(75, 48);
+            this.answer73.TabIndex = 2;
+            this.answer73.Text = "Fire Emblem";
+            this.answer73.UseVisualStyleBackColor = true;
+            this.answer73.Click += new System.EventHandler(this.answer73_Click);
+            // 
+            // answer72
+            // 
+            this.answer72.Location = new System.Drawing.Point(141, 19);
+            this.answer72.Name = "answer72";
+            this.answer72.Size = new System.Drawing.Size(75, 48);
+            this.answer72.TabIndex = 1;
+            this.answer72.Text = "Super Mario";
+            this.answer72.UseVisualStyleBackColor = true;
+            this.answer72.Click += new System.EventHandler(this.answer72_Click);
+            // 
+            // answersGroup7
+            // 
+            this.answersGroup7.Controls.Add(this.answersGroup8);
+            this.answersGroup7.Controls.Add(this.answer73);
+            this.answersGroup7.Controls.Add(this.answer72);
+            this.answersGroup7.Controls.Add(this.answer71);
+            this.answersGroup7.Location = new System.Drawing.Point(12, 167);
+            this.answersGroup7.Name = "answersGroup7";
+            this.answersGroup7.Size = new System.Drawing.Size(345, 84);
+            this.answersGroup7.TabIndex = 14;
+            this.answersGroup7.TabStop = false;
+            this.answersGroup7.Text = "Answers:";
+            this.answersGroup7.Visible = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(207, 121);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(207, 121);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            // 
+            // answersGroup8
+            // 
+            this.answersGroup8.Controls.Add(this.answer83);
+            this.answersGroup8.Controls.Add(this.answer82);
+            this.answersGroup8.Controls.Add(this.answer81);
+            this.answersGroup8.Location = new System.Drawing.Point(0, 0);
+            this.answersGroup8.Name = "answersGroup8";
+            this.answersGroup8.Size = new System.Drawing.Size(345, 84);
+            this.answersGroup8.TabIndex = 15;
+            this.answersGroup8.TabStop = false;
+            this.answersGroup8.Text = "Answers:";
+            this.answersGroup8.Visible = false;
+            // 
+            // answer81
+            // 
+            this.answer81.Location = new System.Drawing.Point(6, 19);
+            this.answer81.Name = "answer81";
+            this.answer81.Size = new System.Drawing.Size(75, 48);
+            this.answer81.TabIndex = 0;
+            this.answer81.Text = "Mario Kart";
+            this.answer81.UseVisualStyleBackColor = true;
+            this.answer81.Click += new System.EventHandler(this.answer81_Click);
+            // 
+            // answer82
+            // 
+            this.answer82.Location = new System.Drawing.Point(141, 19);
+            this.answer82.Name = "answer82";
+            this.answer82.Size = new System.Drawing.Size(75, 48);
+            this.answer82.TabIndex = 1;
+            this.answer82.Text = "F-Zero";
+            this.answer82.UseVisualStyleBackColor = true;
+            this.answer82.Click += new System.EventHandler(this.answer82_Click);
+            // 
+            // answer83
+            // 
+            this.answer83.Location = new System.Drawing.Point(264, 19);
+            this.answer83.Name = "answer83";
+            this.answer83.Size = new System.Drawing.Size(75, 48);
+            this.answer83.TabIndex = 2;
+            this.answer83.Text = "Star Fox";
+            this.answer83.UseVisualStyleBackColor = true;
+            this.answer83.Click += new System.EventHandler(this.answer83_Click);
+            // 
             // EasyQuiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 292);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.answersGroup7);
+            this.Controls.Add(this.answersGroup6);
             this.Controls.Add(this.answersGroup5);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -550,11 +677,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.answersGroup4.ResumeLayout(false);
-            this.answersGroup5.ResumeLayout(false);
-            this.answersGroup6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.answersGroup5.ResumeLayout(false);
+            this.answersGroup6.ResumeLayout(false);
+            this.answersGroup7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.answersGroup8.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -592,15 +723,25 @@
         private System.Windows.Forms.Button answer42;
         private System.Windows.Forms.Button answer41;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.GroupBox answersGroup5;
         private System.Windows.Forms.Button answer53;
         private System.Windows.Forms.Button answer52;
         private System.Windows.Forms.Button answer51;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.GroupBox answersGroup6;
         private System.Windows.Forms.Button answer63;
         private System.Windows.Forms.Button answer62;
         private System.Windows.Forms.Button answer61;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.GroupBox answersGroup5;
+        private System.Windows.Forms.GroupBox answersGroup6;
+        private System.Windows.Forms.Button answer71;
+        private System.Windows.Forms.Button answer73;
+        private System.Windows.Forms.Button answer72;
+        private System.Windows.Forms.GroupBox answersGroup7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.GroupBox answersGroup8;
+        private System.Windows.Forms.Button answer83;
+        private System.Windows.Forms.Button answer82;
+        private System.Windows.Forms.Button answer81;
     }
 }

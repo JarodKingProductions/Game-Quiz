@@ -420,8 +420,10 @@ namespace Video_Game_Character_Quiz
         private void answer61_Click(object sender, EventArgs e)
         {
             answersGroup6.Visible = false;
+            answersGroup7.Visible = true;
 
             pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -430,9 +432,11 @@ namespace Video_Game_Character_Quiz
 
         private void answer62_Click(object sender, EventArgs e)
         {
-            answersGroup6.Visible = true;
+            answersGroup6.Visible = false;
+            answersGroup7.Visible = true;
 
             pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -441,9 +445,11 @@ namespace Video_Game_Character_Quiz
 
         private void answer63_Click(object sender, EventArgs e)
         {
-            answersGroup6.Visible = true;
+            answersGroup6.Visible = false;
+            answersGroup7.Visible = true;
 
             pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
 
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
@@ -452,6 +458,85 @@ namespace Video_Game_Character_Quiz
         }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void answer71_Click(object sender, EventArgs e)
+        {
+            answersGroup7.Visible = false;
+            answersGroup8.Visible = true;
+
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+
+            totalScore += 1;
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer72_Click(object sender, EventArgs e)
+        {
+            answersGroup7.Visible = false;
+            answersGroup8.Visible = true;
+
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer73_Click(object sender, EventArgs e)
+        {
+            answersGroup7.Visible = false;
+            answersGroup8.Visible = true;
+
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+            
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void answer81_Click(object sender, EventArgs e)
+        {
+            answersGroup8.Visible = false;
+
+            pictureBox9.Visible = false;
+
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer82_Click(object sender, EventArgs e)
+        {
+            answersGroup8.Visible = false;
+
+            pictureBox9.Visible = false;
+
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer83_Click(object sender, EventArgs e)
+        {
+            answersGroup8.Visible = false;
+
+            pictureBox9.Visible = false;
+
+            totalScore += 1;
+            totalScoreLabel.Text = totalScore.ToString();
+
+            Question2.Text = updateQuestion();
+        }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
         private void answer31_MouseEnter(object sender, System.EventArgs e)
         {
             Greg.Visible = true;
