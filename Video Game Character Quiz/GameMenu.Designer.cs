@@ -55,7 +55,7 @@
             // 
             // playButton
             // 
-            this.playButton.Location = new System.Drawing.Point(12, 228);
+            this.playButton.Location = new System.Drawing.Point(282, 228);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(75, 20);
             this.playButton.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // stopButton
             // 
-            this.stopButton.Location = new System.Drawing.Point(12, 254);
+            this.stopButton.Location = new System.Drawing.Point(282, 254);
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(75, 20);
             this.stopButton.TabIndex = 2;
@@ -82,11 +82,11 @@
             // 
             // browseButton
             // 
-            this.browseButton.Location = new System.Drawing.Point(282, 228);
+            this.browseButton.Location = new System.Drawing.Point(12, 228);
             this.browseButton.Name = "browseButton";
             this.browseButton.Size = new System.Drawing.Size(75, 46);
             this.browseButton.TabIndex = 6;
-            this.browseButton.Text = "Browse MP3";
+            this.browseButton.Text = "Browse MP3 file";
             this.browseButton.UseVisualStyleBackColor = true;
             this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
@@ -136,7 +136,7 @@
             this.linc_HiddenButton.Name = "linc_HiddenButton";
             this.linc_HiddenButton.Size = new System.Drawing.Size(75, 40);
             this.linc_HiddenButton.TabIndex = 11;
-            this.linc_HiddenButton.Text = "Medium";
+            this.linc_HiddenButton.Text = "Medium Quiz";
             this.linc_HiddenButton.UseVisualStyleBackColor = true;
             this.linc_HiddenButton.Click += new System.EventHandler(this.linc_HiddenButton_Click);
             // 
@@ -146,7 +146,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 40);
             this.button3.TabIndex = 12;
-            this.button3.Text = "Hard";
+            this.button3.Text = "Hard Quiz";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.HardQuiz);
             // 
