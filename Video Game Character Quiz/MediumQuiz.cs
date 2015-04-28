@@ -16,6 +16,8 @@ namespace Video_Game_Character_Quiz
 
         string answer;
 
+        int totalScore = 0;
+
         public MediumQuiz()
         {
             InitializeComponent();
@@ -37,22 +39,11 @@ namespace Video_Game_Character_Quiz
 
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
-          /*answersGroup2.Visible = false;
-            answersGroup3.Visible = false;
-            answersGroup4.Visible = false;
-            answersGroup5.Visible = false;
-            answersGroup6.Visible = false;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false; */
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
 
-            //totalScoreLabel.Text = totalScore.ToString();
-
+            totalScore += 1;
             Question2.Text = updateQuestion();
         }
 
@@ -61,23 +52,11 @@ namespace Video_Game_Character_Quiz
             question1.Visible = false;
             Question2.Visible = true;
 
-              answersGroup0.Visible = false;
-              answersGroup1.Visible = true;
-            /*answersGroup2.Visible = false;
-              answersGroup3.Visible = false;
-              answersGroup4.Visible = false;
-              answersGroup5.Visible = false;
-              answersGroup6.Visible = false;
+            answersGroup0.Visible = false;
+            answersGroup1.Visible = true;
 
-            /*  pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
-
-            //totalScoreLabel.Text = totalScore.ToString();
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -87,28 +66,166 @@ namespace Video_Game_Character_Quiz
             question1.Visible = false;
             Question2.Visible = true;
 
-              answersGroup0.Visible = false;
-              answersGroup1.Visible = true;
-            /*answersGroup2.Visible = false;
-              answersGroup3.Visible = false;
-              answersGroup4.Visible = false;
-              answersGroup5.Visible = false;
-              answersGroup0.Visible = false;
+            answersGroup0.Visible = false;
+            answersGroup1.Visible = true;
 
-            /*  pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
-
-            //totalScoreLabel.Text = totalScore.ToString();
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
 
             Question2.Text = updateQuestion();
         }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void answer11_Click(object sender, EventArgs e)
+        {
+            answersGroup1.Visible = false;
+            answersGroup2.Visible = true;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer12_Click(object sender, EventArgs e)
+        {
+            answersGroup1.Visible = false;
+            answersGroup2.Visible = true;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer13_Click(object sender, EventArgs e)
+        {
+            answersGroup1.Visible = false;
+            answersGroup2.Visible = true;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        private void answer21_Click(object sender, EventArgs e)
+        {
+            answersGroup2.Visible = false;
+            answersGroup3.Visible = true;
+
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer22_Click(object sender, EventArgs e)
+        {
+            answersGroup2.Visible = false;
+            answersGroup3.Visible = true;
+
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer23_Click(object sender, EventArgs e)
+        {
+            answersGroup2.Visible = false;
+            answersGroup3.Visible = true;
+
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void answer31_Click(object sender, EventArgs e)
+        {
+            answersGroup3.Visible = false;
+            answersGroup4.Visible = true;
+
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer32_Click(object sender, EventArgs e)
+        {
+            answersGroup3.Visible = false;
+            answersGroup4.Visible = true;
+
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer33_Click(object sender, EventArgs e)
+        {
+            answersGroup3.Visible = false;
+            answersGroup4.Visible = true;
+
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+
+            Question2.Text = updateQuestion();
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void answer41_Click(object sender, EventArgs e)
+        {
+            answersGroup4.Visible = false;
+            answersGroup5.Visible = true;
+
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer42_Click(object sender, EventArgs e)
+        {
+            answersGroup4.Visible = false;
+            answersGroup5.Visible = true;
+
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+        private void answer43_Click(object sender, EventArgs e)
+        {
+            answersGroup4.Visible = false;
+            answersGroup5.Visible = true;
+
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
+            totalScore += 1;
+            Question2.Text = updateQuestion();
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void muffinButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
