@@ -90,13 +90,8 @@ namespace Video_Game_Character_Quiz
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
 
-            pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             pictureBox3.Visible = true;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -108,13 +103,8 @@ namespace Video_Game_Character_Quiz
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
 
-            pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             pictureBox3.Visible = true;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
@@ -127,13 +117,8 @@ namespace Video_Game_Character_Quiz
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
 
-            pictureBox1.Visible = false;
             pictureBox2.Visible = false;
             pictureBox3.Visible = true;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -147,13 +132,8 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
@@ -166,13 +146,9 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
+
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -184,13 +160,8 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -204,13 +175,8 @@ namespace Video_Game_Character_Quiz
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
@@ -224,13 +190,8 @@ namespace Video_Game_Character_Quiz
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScore += 1;
             totalScoreLabel.Text = totalScore.ToString();
@@ -242,15 +203,12 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
-
-
             pictureBox1.Visible = false;
             pictureBox2.Visible = false;
+
             pictureBox3.Visible = false;
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
 
             totalScoreLabel.Text = totalScore.ToString();
 
