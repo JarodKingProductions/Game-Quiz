@@ -37,19 +37,9 @@ namespace Video_Game_Character_Quiz
 
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
-          /*answersGroup2.Visible = false;
-            answersGroup3.Visible = false;
-            answersGroup4.Visible = false;
-            answersGroup5.Visible = false;
-            answersGroup6.Visible = false;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false; */
+           // pictureBox1.Visible = false;
+           // pictureBox2.Visible = true;
 
             //totalScoreLabel.Text = totalScore.ToString();
 
@@ -63,19 +53,10 @@ namespace Video_Game_Character_Quiz
 
               answersGroup0.Visible = false;
               answersGroup1.Visible = true;
-            /*answersGroup2.Visible = false;
-              answersGroup3.Visible = false;
-              answersGroup4.Visible = false;
-              answersGroup5.Visible = false;
-              answersGroup6.Visible = false;
 
-            /*  pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
+            //  pictureBox1.Visible = false;
+             // pictureBox2.Visible = true;
+
 
             //totalScoreLabel.Text = totalScore.ToString();
 
@@ -89,26 +70,17 @@ namespace Video_Game_Character_Quiz
 
               answersGroup0.Visible = false;
               answersGroup1.Visible = true;
-            /*answersGroup2.Visible = false;
-              answersGroup3.Visible = false;
-              answersGroup4.Visible = false;
-              answersGroup5.Visible = false;
-              answersGroup0.Visible = false;
 
-            /*  pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
+            //  pictureBox1.Visible = false;
+             // pictureBox2.Visible = true;
 
             //totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
-
-
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
     }
 }

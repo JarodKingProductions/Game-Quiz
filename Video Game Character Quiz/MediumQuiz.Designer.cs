@@ -30,18 +30,23 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MediumQuiz));
             this.answersGroup0 = new System.Windows.Forms.GroupBox();
+            this.answersGroup1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.answer03 = new System.Windows.Forms.Button();
             this.answer02 = new System.Windows.Forms.Button();
             this.answer01 = new System.Windows.Forms.Button();
             this.muffinButton = new System.Windows.Forms.Button();
             this.question1 = new System.Windows.Forms.Label();
             this.Question2 = new System.Windows.Forms.Label();
-            this.answersGroup1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.answersGroup0.SuspendLayout();
             this.answersGroup1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // answersGroup0
@@ -56,6 +61,86 @@
             this.answersGroup0.TabIndex = 4;
             this.answersGroup0.TabStop = false;
             this.answersGroup0.Text = "Answers";
+            // 
+            // answersGroup1
+            // 
+            this.answersGroup1.Controls.Add(this.groupBox1);
+            this.answersGroup1.Controls.Add(this.button1);
+            this.answersGroup1.Controls.Add(this.button2);
+            this.answersGroup1.Controls.Add(this.button3);
+            this.answersGroup1.Location = new System.Drawing.Point(1, 1);
+            this.answersGroup1.Name = "answersGroup1";
+            this.answersGroup1.Size = new System.Drawing.Size(345, 84);
+            this.answersGroup1.TabIndex = 8;
+            this.answersGroup1.TabStop = false;
+            this.answersGroup1.Text = "Answers";
+            this.answersGroup1.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(345, 84);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Answers";
+            this.groupBox1.Visible = false;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(264, 19);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 48);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Parasite X";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(136, 19);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 48);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Metroid";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(6, 19);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 48);
+            this.button6.TabIndex = 0;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(264, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 48);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Parasite X";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(136, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 48);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Metroid";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 19);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 48);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "Virus X";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // answer03
             // 
@@ -116,46 +201,6 @@
             this.Question2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Question2.Visible = false;
             // 
-            // answersGroup1
-            // 
-            this.answersGroup1.Controls.Add(this.button1);
-            this.answersGroup1.Controls.Add(this.button2);
-            this.answersGroup1.Controls.Add(this.button3);
-            this.answersGroup1.Location = new System.Drawing.Point(1, 1);
-            this.answersGroup1.Name = "answersGroup1";
-            this.answersGroup1.Size = new System.Drawing.Size(345, 84);
-            this.answersGroup1.TabIndex = 8;
-            this.answersGroup1.TabStop = false;
-            this.answersGroup1.Text = "Answers";
-            this.answersGroup1.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(264, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 48);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Parasite X";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(136, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 48);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Metroid";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(6, 19);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 48);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Virus X";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // MediumQuiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +215,7 @@
             this.Text = "Medium Quiz";
             this.answersGroup0.ResumeLayout(false);
             this.answersGroup1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -187,5 +233,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
