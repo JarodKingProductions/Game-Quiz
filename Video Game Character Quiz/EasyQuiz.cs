@@ -36,8 +36,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox1.Visible = false;
             pictureBox2.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
                 
             Question2.Text = updateQuestion();
             
@@ -61,8 +59,6 @@ namespace Video_Game_Character_Quiz
             pictureBox1.Visible = false;
             pictureBox2.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -78,7 +74,6 @@ namespace Video_Game_Character_Quiz
             pictureBox2.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -93,8 +88,6 @@ namespace Video_Game_Character_Quiz
             pictureBox2.Visible = false;
             pictureBox3.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -107,7 +100,6 @@ namespace Video_Game_Character_Quiz
             pictureBox3.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -119,8 +111,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox2.Visible = false;
             pictureBox3.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -136,7 +126,6 @@ namespace Video_Game_Character_Quiz
             pictureBox4.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -150,8 +139,6 @@ namespace Video_Game_Character_Quiz
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -162,8 +149,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -177,8 +162,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -194,7 +177,6 @@ namespace Video_Game_Character_Quiz
             pictureBox5.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -210,7 +192,6 @@ namespace Video_Game_Character_Quiz
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -225,8 +206,6 @@ namespace Video_Game_Character_Quiz
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -237,8 +216,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -252,7 +229,6 @@ namespace Video_Game_Character_Quiz
             pictureBox6.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -268,7 +244,6 @@ namespace Video_Game_Character_Quiz
             pictureBox7.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -281,8 +256,6 @@ namespace Video_Game_Character_Quiz
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -293,8 +266,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -309,7 +280,6 @@ namespace Video_Game_Character_Quiz
             pictureBox7.Visible = false;
             pictureBox8.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -321,8 +291,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox7.Visible = false;
             pictureBox8.Visible = true;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -336,7 +304,6 @@ namespace Video_Game_Character_Quiz
             pictureBox8.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -352,7 +319,6 @@ namespace Video_Game_Character_Quiz
             pictureBox9.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -365,8 +331,6 @@ namespace Video_Game_Character_Quiz
             pictureBox8.Visible = false;
             pictureBox9.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -377,8 +341,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox8.Visible = false;
             pictureBox9.Visible = true;
-            
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -393,8 +355,6 @@ namespace Video_Game_Character_Quiz
             pictureBox9.Visible = false;
             pictureBox10.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -407,7 +367,6 @@ namespace Video_Game_Character_Quiz
             pictureBox10.Visible = true;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -420,8 +379,6 @@ namespace Video_Game_Character_Quiz
             pictureBox9.Visible = false;
             pictureBox10.Visible = true;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -433,8 +390,6 @@ namespace Video_Game_Character_Quiz
 
             pictureBox10.Visible = false;
 
-            totalScoreLabel.Text = totalScore.ToString();
-
             Question2.Text = updateQuestion();
         }
 
@@ -443,8 +398,6 @@ namespace Video_Game_Character_Quiz
             answersGroup9.Visible = false;
 
             pictureBox10.Visible = false;
-
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
@@ -456,7 +409,6 @@ namespace Video_Game_Character_Quiz
             pictureBox10.Visible = false;
 
             totalScore += 1;
-            totalScoreLabel.Text = totalScore.ToString();
 
             Question2.Text = updateQuestion();
         }
