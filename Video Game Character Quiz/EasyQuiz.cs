@@ -135,6 +135,7 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
+
             pictureBox3.Visible = false;
             pictureBox4.Visible = true;
 
@@ -184,9 +185,13 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
 
+            pictureBox3.Visible = false;
             pictureBox4.Visible = false;
             pictureBox5.Visible = true;
+
 
             Question2.Text = updateQuestion();
         }
@@ -274,6 +279,7 @@ namespace Video_Game_Character_Quiz
 
             pictureBox7.Visible = false;
             pictureBox8.Visible = true;
+
 
             Question2.Text = updateQuestion();
         }
@@ -381,57 +387,30 @@ namespace Video_Game_Character_Quiz
         private void answer91_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
-            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
-            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
-            //
-            if (finalScoreBox.Visible == true)
-            {
-                finalScoreText.Text = totalScore.ToString("n1");
-
-                finalScoreText.Text = "You got " + totalScore + " out of 10.";
-            }
         }
 
         private void answer92_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
-            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
-            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
-            //
-            if (finalScoreBox.Visible == true)
-            {
-                finalScoreText.Text = totalScore.ToString("n1");
-
-                finalScoreText.Text = "You got " + totalScore + " out of 10.";
-            }
         }
 
         private void answer93_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
-            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
-            trophyPhoto.Visible = true;
 
             totalScore += 1;
 
             Question2.Text = updateQuestion();
-            //
-            if (finalScoreBox.Visible == true)
-            {
-                finalScoreText.Text = totalScore.ToString("n1");
-
-                finalScoreText.Text = "You got " + totalScore + " out of 10.";
-            }
         }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -447,16 +426,12 @@ namespace Video_Game_Character_Quiz
         }
 
         //
-
         //
 
-       /* if(finalScoreBox.Visible == true)
-            {
-                finalScoreText.Text = totalScore.ToString("n1");
-
-                finalScoreText.Text = "You got " + totalScore + " out of 10.";
-            } */
-
+        private void totalScoreLabel_Click(object sender, EventArgs e)
+        {
+            totalScoreLabel.Text = totalScore.ToString();
+        }
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
