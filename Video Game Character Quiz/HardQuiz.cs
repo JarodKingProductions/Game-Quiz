@@ -89,7 +89,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void button13_Click(object sender, EventArgs e)
         {
             answersGroup1.Visible = false;
@@ -137,7 +137,7 @@ namespace Video_Game_Character_Quiz
 
             Question2.Text = updateQuestion();
         }
-        /// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void button33_Click(object sender, EventArgs e)
         {
             answersGroup3.Visible = false;
@@ -258,7 +258,7 @@ namespace Video_Game_Character_Quiz
             Question2.Text = updateQuestion();
         }
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private void button83_Click(object sender, EventArgs e)
+        private void answer83_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
@@ -266,7 +266,7 @@ namespace Video_Game_Character_Quiz
             Question2.Text = updateQuestion();
         }
 
-        private void button82_Click(object sender, EventArgs e)
+        private void answer82_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
@@ -274,7 +274,7 @@ namespace Video_Game_Character_Quiz
             Question2.Text = updateQuestion();
         }
 
-        private void button81_Click(object sender, EventArgs e)
+        private void answer81_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
@@ -300,6 +300,11 @@ namespace Video_Game_Character_Quiz
             answersGroup9.Visible = false;
 
             Question2.Text = updateQuestion();
+        }
+
+        private void HardQuiz_Load(object sender, EventArgs e)
+        {
+
         }
         /// /////////////////////////////////////////////////
 
