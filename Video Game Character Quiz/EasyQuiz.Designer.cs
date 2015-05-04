@@ -539,7 +539,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox6.Location = new System.Drawing.Point(84, 42);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(207, 121);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -550,7 +550,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox5.Location = new System.Drawing.Point(84, 42);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(207, 121);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -561,7 +561,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox7.Location = new System.Drawing.Point(84, 42);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(207, 121);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -628,7 +628,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox8.Location = new System.Drawing.Point(84, 42);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(207, 121);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -639,7 +639,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(84, 40);
+            this.pictureBox9.Location = new System.Drawing.Point(84, 42);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(207, 121);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -706,7 +706,7 @@
             this.trophyPhoto.Image = ((System.Drawing.Image)(resources.GetObject("trophyPhoto.Image")));
             this.trophyPhoto.Location = new System.Drawing.Point(84, 40);
             this.trophyPhoto.Name = "trophyPhoto";
-            this.trophyPhoto.Size = new System.Drawing.Size(207, 121);
+            this.trophyPhoto.Size = new System.Drawing.Size(207, 123);
             this.trophyPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.trophyPhoto.TabIndex = 16;
             this.trophyPhoto.TabStop = false;

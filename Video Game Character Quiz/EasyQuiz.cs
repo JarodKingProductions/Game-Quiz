@@ -387,30 +387,57 @@ namespace Video_Game_Character_Quiz
         private void answer91_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
+            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
+             //
+             if (finalScoreBox.Visible == true)
+             {
+                 finalScoreText.Text = totalScore.ToString("n1");
+ 
+                 finalScoreText.Text = "You got " + totalScore + " out of 10.";
+             }
         }
 
         private void answer92_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
+            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
+             //
+             if (finalScoreBox.Visible == true)
+             {
+                 finalScoreText.Text = totalScore.ToString("n1");
+ 
+                 finalScoreText.Text = "You got " + totalScore + " out of 10.";
+             }
         }
 
         private void answer93_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
 
             pictureBox10.Visible = false;
+            trophyPhoto.Visible = true;
 
             totalScore += 1;
 
             Question2.Text = updateQuestion();
+            //
+             if (finalScoreBox.Visible == true)
+             {
+                 finalScoreText.Text = totalScore.ToString("n1");
+ 
+                 finalScoreText.Text = "You got " + totalScore + " out of 10.";
+             }
         }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

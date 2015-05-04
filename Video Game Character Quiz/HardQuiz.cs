@@ -41,14 +41,6 @@ namespace Video_Game_Character_Quiz
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
 
-              /*pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
-
             Question2.Text = updateQuestion();
         }
 
@@ -60,14 +52,6 @@ namespace Video_Game_Character_Quiz
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
 
-              /*pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
-
             Question2.Text = updateQuestion();
         }
 
@@ -78,14 +62,6 @@ namespace Video_Game_Character_Quiz
 
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
-
-              /*pictureBox1.Visible = false;
-              pictureBox2.Visible = true;
-              pictureBox3.Visible = false;
-              pictureBox4.Visible = false;
-              pictureBox5.Visible = false;
-              pictureBox6.Visible = false;
-              pictureBox7.Visible = false; */
 
             Question2.Text = updateQuestion();
         }
