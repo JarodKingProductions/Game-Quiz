@@ -228,7 +228,6 @@ namespace Video_Game_Character_Quiz
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
 
-            totalScore += 1;
             Question2.Text = updateQuestion();
         }
 
@@ -251,6 +250,7 @@ namespace Video_Game_Character_Quiz
             pictureBox5.Visible = false;
             pictureBox6.Visible = true;
 
+            totalScore += 1;
             Question2.Text = updateQuestion();
         }
 
@@ -275,6 +275,7 @@ namespace Video_Game_Character_Quiz
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
+            totalScore += 1;
             Question2.Text = updateQuestion();
         }
 
@@ -286,7 +287,6 @@ namespace Video_Game_Character_Quiz
             pictureBox6.Visible = false;
             pictureBox7.Visible = true;
 
-            totalScore += 1;
             Question2.Text = updateQuestion();
         }
 

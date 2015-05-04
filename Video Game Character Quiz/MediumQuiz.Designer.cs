@@ -623,7 +623,6 @@
             // 
             // answersGroup9
             // 
-            this.answersGroup9.Controls.Add(this.finalScoreBox);
             this.answersGroup9.Controls.Add(this.answer92);
             this.answersGroup9.Controls.Add(this.answer91);
             this.answersGroup9.Controls.Add(this.answer93);
@@ -690,19 +689,19 @@
             // finalScoreBox
             // 
             this.finalScoreBox.Controls.Add(this.finalScoreText);
-            this.finalScoreBox.Location = new System.Drawing.Point(0, 0);
+            this.finalScoreBox.Location = new System.Drawing.Point(12, 173);
             this.finalScoreBox.Name = "finalScoreBox";
             this.finalScoreBox.Size = new System.Drawing.Size(345, 84);
-            this.finalScoreBox.TabIndex = 19;
+            this.finalScoreBox.TabIndex = 18;
             this.finalScoreBox.TabStop = false;
             this.finalScoreBox.Text = "Final Score:";
             this.finalScoreBox.Visible = false;
             // 
             // finalScoreText
             // 
-            this.finalScoreText.Location = new System.Drawing.Point(69, 32);
+            this.finalScoreText.Location = new System.Drawing.Point(69, 30);
             this.finalScoreText.Name = "finalScoreText";
-            this.finalScoreText.Size = new System.Drawing.Size(210, 23);
+            this.finalScoreText.Size = new System.Drawing.Size(210, 26);
             this.finalScoreText.TabIndex = 0;
             this.finalScoreText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -712,6 +711,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 292);
+            this.Controls.Add(this.finalScoreBox);
             this.Controls.Add(this.trophyPhoto);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.answersGroup9);
