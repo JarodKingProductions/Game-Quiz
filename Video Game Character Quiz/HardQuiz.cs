@@ -21,6 +21,8 @@ namespace Video_Game_Character_Quiz
             inputFile = File.OpenText("Hard.txt");
         }
 
+        int totalScore = 0;
+
         /// ///////////////////////////////////////////////////////////////////////////////////////////////
         private string updateQuestion()
         {
@@ -41,6 +43,9 @@ namespace Video_Game_Character_Quiz
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
 
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -51,6 +56,11 @@ namespace Video_Game_Character_Quiz
 
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
+
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -63,6 +73,9 @@ namespace Video_Game_Character_Quiz
             answersGroup0.Visible = false;
             answersGroup1.Visible = true;
 
+            pictureBox0.Visible = false;
+            pictureBox1.Visible = true;
+
             Question2.Text = updateQuestion();
         }
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -70,6 +83,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -79,6 +95,11 @@ namespace Video_Game_Character_Quiz
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
 
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
+
+            totalScore += 1;
+
             Question2.Text = updateQuestion();
         }
 
@@ -86,6 +107,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup1.Visible = false;
             answersGroup2.Visible = true;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -95,6 +119,11 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+
+            totalScore += 1;
+
             Question2.Text = updateQuestion();
         }
 
@@ -102,6 +131,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
+
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -111,6 +143,9 @@ namespace Video_Game_Character_Quiz
             answersGroup2.Visible = false;
             answersGroup3.Visible = true;
 
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = true;
+
             Question2.Text = updateQuestion();
         }
         /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -118,6 +153,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
+
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -127,6 +165,9 @@ namespace Video_Game_Character_Quiz
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
 
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -134,6 +175,11 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup3.Visible = false;
             answersGroup4.Visible = true;
+
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -143,6 +189,9 @@ namespace Video_Game_Character_Quiz
             answersGroup4.Visible = false;
             answersGroup5.Visible = true;
 
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -150,6 +199,11 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup4.Visible = false;
             answersGroup5.Visible = true;
+
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -159,6 +213,9 @@ namespace Video_Game_Character_Quiz
             answersGroup4.Visible = false;
             answersGroup5.Visible = true;
 
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = true;
+
             Question2.Text = updateQuestion();
         }
         /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -166,6 +223,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
+
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -175,6 +235,9 @@ namespace Video_Game_Character_Quiz
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
 
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -182,6 +245,11 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup5.Visible = false;
             answersGroup6.Visible = true;
+
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -191,6 +259,11 @@ namespace Video_Game_Character_Quiz
             answersGroup6.Visible = false;
             answersGroup7.Visible = true;
 
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
+
+            totalScore += 1;
+
             Question2.Text = updateQuestion();
         }
 
@@ -198,6 +271,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup6.Visible = false;
             answersGroup7.Visible = true;
+
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -207,6 +283,9 @@ namespace Video_Game_Character_Quiz
             answersGroup6.Visible = false;
             answersGroup7.Visible = true;
 
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = true;
+
             Question2.Text = updateQuestion();
         }
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -214,6 +293,11 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup7.Visible = false;
             answersGroup8.Visible = true;
+
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -223,6 +307,9 @@ namespace Video_Game_Character_Quiz
             answersGroup7.Visible = false;
             answersGroup8.Visible = true;
 
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -230,6 +317,9 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup7.Visible = false;
             answersGroup8.Visible = true;
+
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
 
             Question2.Text = updateQuestion();
         }
@@ -239,6 +329,9 @@ namespace Video_Game_Character_Quiz
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
 
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -246,6 +339,11 @@ namespace Video_Game_Character_Quiz
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
+
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
         }
@@ -255,6 +353,9 @@ namespace Video_Game_Character_Quiz
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
 
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = true;
+
             Question2.Text = updateQuestion();
         }
 
@@ -262,21 +363,56 @@ namespace Video_Game_Character_Quiz
         private void button93_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
+
+            pictureBox9.Visible = false;
+            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
+            //
+            if (finalScoreBox.Visible == true)
+            {
+                finalScoreText.Text = totalScore.ToString("n1");
+
+                finalScoreText.Text = "You got " + totalScore + " out of 10.";
+            }
         }
 
         private void button92_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
+
+            pictureBox9.Visible = false;
+            trophyPhoto.Visible = true;
+
+            totalScore += 1;
 
             Question2.Text = updateQuestion();
+            //
+            if (finalScoreBox.Visible == true)
+            {
+                finalScoreText.Text = totalScore.ToString("n1");
+
+                finalScoreText.Text = "You got " + totalScore + " out of 10.";
+            }
         }
         private void button91_Click(object sender, EventArgs e)
         {
             answersGroup9.Visible = false;
+            finalScoreBox.Visible = true;
+
+            pictureBox9.Visible = false;
+            trophyPhoto.Visible = true;
 
             Question2.Text = updateQuestion();
+            //
+            if (finalScoreBox.Visible == true)
+            {
+                finalScoreText.Text = totalScore.ToString("n1");
+
+                finalScoreText.Text = "You got " + totalScore + " out of 10.";
+            }
         }
 
         private void HardQuiz_Load(object sender, EventArgs e)
