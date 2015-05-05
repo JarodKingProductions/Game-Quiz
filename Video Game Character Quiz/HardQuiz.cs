@@ -234,7 +234,7 @@ namespace Video_Game_Character_Quiz
             Question2.Text = updateQuestion();
         }
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private void answer83_Click(object sender, EventArgs e)
+        private void answer81_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
@@ -250,13 +250,14 @@ namespace Video_Game_Character_Quiz
             Question2.Text = updateQuestion();
         }
 
-        private void answer81_Click(object sender, EventArgs e)
+        private void answer83_Click(object sender, EventArgs e)
         {
             answersGroup8.Visible = false;
             answersGroup9.Visible = true;
 
             Question2.Text = updateQuestion();
         }
+
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void button93_Click(object sender, EventArgs e)
         {
@@ -282,6 +283,14 @@ namespace Video_Game_Character_Quiz
         {
 
         }
+
+
+
+
+
+
+
+
         /// /////////////////////////////////////////////////
 
     }

@@ -36,22 +36,19 @@
             this.button01 = new System.Windows.Forms.Button();
             this.button02 = new System.Windows.Forms.Button();
             this.button03 = new System.Windows.Forms.Button();
-            this.answersGroup4 = new System.Windows.Forms.GroupBox();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
             this.answersGroup9 = new System.Windows.Forms.GroupBox();
             this.button91 = new System.Windows.Forms.Button();
             this.button93 = new System.Windows.Forms.Button();
             this.button92 = new System.Windows.Forms.Button();
-            this.answersGroup8 = new System.Windows.Forms.GroupBox();
-            this.answer83 = new System.Windows.Forms.Button();
-            this.answer81 = new System.Windows.Forms.Button();
-            this.answer82 = new System.Windows.Forms.Button();
+            this.answersGroup4 = new System.Windows.Forms.GroupBox();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
             this.answersGroup1 = new System.Windows.Forms.GroupBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.answersGroup8 = new System.Windows.Forms.GroupBox();
             this.answersGroup2 = new System.Windows.Forms.GroupBox();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -75,11 +72,14 @@
             this.button81 = new System.Windows.Forms.Button();
             this.button83 = new System.Windows.Forms.Button();
             this.button82 = new System.Windows.Forms.Button();
+            this.answer81 = new System.Windows.Forms.Button();
+            this.answer82 = new System.Windows.Forms.Button();
+            this.answer83 = new System.Windows.Forms.Button();
             this.answersGroup0.SuspendLayout();
-            this.answersGroup4.SuspendLayout();
             this.answersGroup9.SuspendLayout();
-            this.answersGroup8.SuspendLayout();
+            this.answersGroup4.SuspendLayout();
             this.answersGroup1.SuspendLayout();
+            this.answersGroup8.SuspendLayout();
             this.answersGroup2.SuspendLayout();
             this.answersGroup3.SuspendLayout();
             this.answersGroup5.SuspendLayout();
@@ -89,9 +89,9 @@
             // 
             // muffinButton
             // 
-            this.muffinButton.Location = new System.Drawing.Point(12, 250);
+            this.muffinButton.Location = new System.Drawing.Point(12, 260);
             this.muffinButton.Name = "muffinButton";
-            this.muffinButton.Size = new System.Drawing.Size(74, 30);
+            this.muffinButton.Size = new System.Drawing.Size(74, 25);
             this.muffinButton.TabIndex = 0;
             this.muffinButton.Text = "Exit";
             this.muffinButton.UseVisualStyleBackColor = true;
@@ -120,13 +120,12 @@
             this.answersGroup0.Controls.Add(this.button01);
             this.answersGroup0.Controls.Add(this.button02);
             this.answersGroup0.Controls.Add(this.button03);
-            this.answersGroup0.Location = new System.Drawing.Point(12, 160);
+            this.answersGroup0.Location = new System.Drawing.Point(12, 165);
             this.answersGroup0.Name = "answersGroup0";
             this.answersGroup0.Size = new System.Drawing.Size(357, 84);
-            this.answersGroup0.TabIndex = 13;
+            this.answersGroup0.TabIndex = 1;
             this.answersGroup0.TabStop = false;
             this.answersGroup0.Text = "Answers";
-            this.answersGroup0.Visible = false;
             // 
             // button01
             // 
@@ -158,55 +157,12 @@
             this.button03.UseVisualStyleBackColor = true;
             this.button03.Click += new System.EventHandler(this.button03_Click);
             // 
-            // answersGroup4
-            // 
-            this.answersGroup4.Controls.Add(this.button41);
-            this.answersGroup4.Controls.Add(this.button42);
-            this.answersGroup4.Controls.Add(this.button43);
-            this.answersGroup4.Location = new System.Drawing.Point(437, 160);
-            this.answersGroup4.Name = "answersGroup4";
-            this.answersGroup4.Size = new System.Drawing.Size(357, 84);
-            this.answersGroup4.TabIndex = 17;
-            this.answersGroup4.TabStop = false;
-            this.answersGroup4.Text = "Answers";
-            // 
-            // button41
-            // 
-            this.button41.Location = new System.Drawing.Point(270, 19);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(75, 48);
-            this.button41.TabIndex = 2;
-            this.button41.Tag = "";
-            this.button41.Text = "F-Zero comic book";
-            this.button41.UseVisualStyleBackColor = true;
-            this.button41.Click += new System.EventHandler(this.button41_Click);
-            // 
-            // button42
-            // 
-            this.button42.Location = new System.Drawing.Point(136, 19);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(75, 48);
-            this.button42.TabIndex = 1;
-            this.button42.Text = "F-Zero instruction book";
-            this.button42.UseVisualStyleBackColor = true;
-            this.button42.Click += new System.EventHandler(this.button42_Click);
-            // 
-            // button43
-            // 
-            this.button43.Location = new System.Drawing.Point(6, 19);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(75, 48);
-            this.button43.TabIndex = 0;
-            this.button43.Text = "Subspace Emissary";
-            this.button43.UseVisualStyleBackColor = true;
-            this.button43.Click += new System.EventHandler(this.button43_Click);
-            // 
             // answersGroup9
             // 
             this.answersGroup9.Controls.Add(this.button91);
             this.answersGroup9.Controls.Add(this.button93);
             this.answersGroup9.Controls.Add(this.button92);
-            this.answersGroup9.Location = new System.Drawing.Point(12, 160);
+            this.answersGroup9.Location = new System.Drawing.Point(12, 165);
             this.answersGroup9.Name = "answersGroup9";
             this.answersGroup9.Size = new System.Drawing.Size(357, 84);
             this.answersGroup9.TabIndex = 20;
@@ -245,58 +201,62 @@
             this.button92.UseVisualStyleBackColor = true;
             this.button92.Click += new System.EventHandler(this.button92_Click);
             // 
-            // answersGroup8
+            // answersGroup4
             // 
-            this.answersGroup8.Controls.Add(this.answer83);
-            this.answersGroup8.Controls.Add(this.answer81);
-            this.answersGroup8.Controls.Add(this.answer82);
-            this.answersGroup8.Location = new System.Drawing.Point(12, 160);
-            this.answersGroup8.Name = "answersGroup8";
-            this.answersGroup8.Size = new System.Drawing.Size(357, 84);
-            this.answersGroup8.TabIndex = 23;
-            this.answersGroup8.TabStop = false;
-            this.answersGroup8.Text = "Answers";
-            this.answersGroup8.Visible = false;
+            this.answersGroup4.Controls.Add(this.button41);
+            this.answersGroup4.Controls.Add(this.button42);
+            this.answersGroup4.Controls.Add(this.button43);
+            this.answersGroup4.Location = new System.Drawing.Point(12, 165);
+            this.answersGroup4.Name = "answersGroup4";
+            this.answersGroup4.Size = new System.Drawing.Size(357, 84);
+            this.answersGroup4.TabIndex = 17;
+            this.answersGroup4.TabStop = false;
+            this.answersGroup4.Text = "Answers";
+            this.answersGroup4.Visible = false;
             // 
-            // answer83
+            // button41
             // 
-            this.answer83.Location = new System.Drawing.Point(270, 19);
-            this.answer83.Name = "answer83";
-            this.answer83.Size = new System.Drawing.Size(75, 48);
-            this.answer83.TabIndex = 2;
-            this.answer83.Text = "Rare\'s Goldeneye 007";
-            this.answer83.UseVisualStyleBackColor = true;
+            this.button41.Location = new System.Drawing.Point(270, 19);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(75, 48);
+            this.button41.TabIndex = 2;
+            this.button41.Tag = "";
+            this.button41.Text = "F-Zero comic book";
+            this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
-            // answer81
+            // button42
             // 
-            this.answer81.Location = new System.Drawing.Point(6, 19);
-            this.answer81.Name = "answer81";
-            this.answer81.Size = new System.Drawing.Size(75, 48);
-            this.answer81.TabIndex = 0;
-            this.answer81.Text = "Metal Gear Solid";
-            this.answer81.UseVisualStyleBackColor = true;
-            this.answer81.Click += new System.EventHandler(this.answer81_Click);
+            this.button42.Location = new System.Drawing.Point(136, 19);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(75, 48);
+            this.button42.TabIndex = 1;
+            this.button42.Text = "F-Zero instruction book";
+            this.button42.UseVisualStyleBackColor = true;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
             // 
-            // answer82
+            // button43
             // 
-            this.answer82.Location = new System.Drawing.Point(136, 19);
-            this.answer82.Name = "answer82";
-            this.answer82.Size = new System.Drawing.Size(75, 48);
-            this.answer82.TabIndex = 1;
-            this.answer82.Text = "Counter Force";
-            this.answer82.UseVisualStyleBackColor = true;
+            this.button43.Location = new System.Drawing.Point(6, 19);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(75, 48);
+            this.button43.TabIndex = 0;
+            this.button43.Text = "Subspace Emissary";
+            this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // answersGroup1
             // 
             this.answersGroup1.Controls.Add(this.button11);
             this.answersGroup1.Controls.Add(this.button12);
             this.answersGroup1.Controls.Add(this.button13);
-            this.answersGroup1.Location = new System.Drawing.Point(437, 264);
+            this.answersGroup1.Location = new System.Drawing.Point(12, 160);
             this.answersGroup1.Name = "answersGroup1";
             this.answersGroup1.Size = new System.Drawing.Size(357, 84);
-            this.answersGroup1.TabIndex = 14;
+            this.answersGroup1.TabIndex = 2;
             this.answersGroup1.TabStop = false;
             this.answersGroup1.Text = "Answers";
+            this.answersGroup1.Visible = false;
             // 
             // button11
             // 
@@ -311,7 +271,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(136, 21);
+            this.button12.Location = new System.Drawing.Point(136, 19);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 48);
             this.button12.TabIndex = 1;
@@ -329,6 +289,19 @@
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
+            // answersGroup8
+            // 
+            this.answersGroup8.Controls.Add(this.answer83);
+            this.answersGroup8.Controls.Add(this.answer82);
+            this.answersGroup8.Controls.Add(this.answer81);
+            this.answersGroup8.Location = new System.Drawing.Point(12, 165);
+            this.answersGroup8.Name = "answersGroup8";
+            this.answersGroup8.Size = new System.Drawing.Size(357, 89);
+            this.answersGroup8.TabIndex = 23;
+            this.answersGroup8.TabStop = false;
+            this.answersGroup8.Text = "Answers";
+            this.answersGroup8.Visible = false;
+            // 
             // answersGroup2
             // 
             this.answersGroup2.Controls.Add(this.button21);
@@ -336,14 +309,15 @@
             this.answersGroup2.Controls.Add(this.button23);
             this.answersGroup2.Location = new System.Drawing.Point(12, 160);
             this.answersGroup2.Name = "answersGroup2";
-            this.answersGroup2.Size = new System.Drawing.Size(351, 84);
+            this.answersGroup2.Size = new System.Drawing.Size(357, 84);
             this.answersGroup2.TabIndex = 15;
             this.answersGroup2.TabStop = false;
             this.answersGroup2.Text = "Answers";
+            this.answersGroup2.Visible = false;
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(264, 19);
+            this.button21.Location = new System.Drawing.Point(270, 19);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 48);
             this.button21.TabIndex = 2;
@@ -377,12 +351,13 @@
             this.answersGroup3.Controls.Add(this.button31);
             this.answersGroup3.Controls.Add(this.button32);
             this.answersGroup3.Controls.Add(this.button33);
-            this.answersGroup3.Location = new System.Drawing.Point(437, 378);
+            this.answersGroup3.Location = new System.Drawing.Point(12, 160);
             this.answersGroup3.Name = "answersGroup3";
             this.answersGroup3.Size = new System.Drawing.Size(357, 84);
             this.answersGroup3.TabIndex = 16;
             this.answersGroup3.TabStop = false;
             this.answersGroup3.Text = "Answers";
+            this.answersGroup3.Visible = false;
             // 
             // button31
             // 
@@ -420,18 +395,19 @@
             this.answersGroup5.Controls.Add(this.button51);
             this.answersGroup5.Controls.Add(this.button52);
             this.answersGroup5.Controls.Add(this.button53);
-            this.answersGroup5.Location = new System.Drawing.Point(12, 359);
+            this.answersGroup5.Location = new System.Drawing.Point(12, 160);
             this.answersGroup5.Name = "answersGroup5";
             this.answersGroup5.Size = new System.Drawing.Size(357, 84);
             this.answersGroup5.TabIndex = 18;
             this.answersGroup5.TabStop = false;
             this.answersGroup5.Text = "Answers";
+            this.answersGroup5.Visible = false;
             // 
             // button51
             // 
-            this.button51.Location = new System.Drawing.Point(264, 19);
+            this.button51.Location = new System.Drawing.Point(270, 19);
             this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(75, 48);
+            this.button51.Size = new System.Drawing.Size(69, 48);
             this.button51.TabIndex = 2;
             this.button51.Tag = "";
             this.button51.Text = "December 8, 1985";
@@ -463,12 +439,13 @@
             this.answersGroup7.Controls.Add(this.button71);
             this.answersGroup7.Controls.Add(this.button73);
             this.answersGroup7.Controls.Add(this.button72);
-            this.answersGroup7.Location = new System.Drawing.Point(12, 53);
+            this.answersGroup7.Location = new System.Drawing.Point(12, 160);
             this.answersGroup7.Name = "answersGroup7";
             this.answersGroup7.Size = new System.Drawing.Size(357, 84);
             this.answersGroup7.TabIndex = 22;
             this.answersGroup7.TabStop = false;
             this.answersGroup7.Text = "Answers";
+            this.answersGroup7.Visible = false;
             // 
             // button71
             // 
@@ -506,12 +483,13 @@
             this.answersGroup6.Controls.Add(this.button61);
             this.answersGroup6.Controls.Add(this.button62);
             this.answersGroup6.Controls.Add(this.button63);
-            this.answersGroup6.Location = new System.Drawing.Point(437, 53);
+            this.answersGroup6.Location = new System.Drawing.Point(12, 160);
             this.answersGroup6.Name = "answersGroup6";
             this.answersGroup6.Size = new System.Drawing.Size(357, 84);
             this.answersGroup6.TabIndex = 19;
             this.answersGroup6.TabStop = false;
             this.answersGroup6.Text = "Answers";
+            this.answersGroup6.Visible = false;
             // 
             // button61
             // 
@@ -546,48 +524,71 @@
             // 
             // button81
             // 
-            this.button81.Location = new System.Drawing.Point(264, 19);
+            this.button81.Location = new System.Drawing.Point(0, 0);
             this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(75, 48);
-            this.button81.TabIndex = 2;
-            this.button81.Tag = "";
-            this.button81.Text = "Metal Gear Solid";
-            this.button81.UseVisualStyleBackColor = true;
+            this.button81.Size = new System.Drawing.Size(75, 23);
+            this.button81.TabIndex = 0;
             // 
             // button83
             // 
-            this.button83.Location = new System.Drawing.Point(6, 19);
+            this.button83.Location = new System.Drawing.Point(0, 0);
             this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(75, 48);
-            this.button83.TabIndex = 1;
-            this.button83.Text = "Rare’s Goldeneye 007";
-            this.button83.UseVisualStyleBackColor = true;
+            this.button83.Size = new System.Drawing.Size(75, 23);
+            this.button83.TabIndex = 0;
             // 
             // button82
             // 
-            this.button82.Location = new System.Drawing.Point(123, 19);
+            this.button82.Location = new System.Drawing.Point(0, 0);
             this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(88, 48);
+            this.button82.Size = new System.Drawing.Size(75, 23);
             this.button82.TabIndex = 0;
-            this.button82.Text = "Counter Force";
-            this.button82.UseVisualStyleBackColor = true;
+            // 
+            // answer81
+            // 
+            this.answer81.Location = new System.Drawing.Point(6, 20);
+            this.answer81.Name = "answer81";
+            this.answer81.Size = new System.Drawing.Size(75, 48);
+            this.answer81.TabIndex = 0;
+            this.answer81.Text = "Metal Gear Solid";
+            this.answer81.UseVisualStyleBackColor = true;
+            this.answer81.Click += new System.EventHandler(this.answer81_Click);
+            // 
+            // answer82
+            // 
+            this.answer82.Location = new System.Drawing.Point(136, 19);
+            this.answer82.Name = "answer82";
+            this.answer82.Size = new System.Drawing.Size(75, 49);
+            this.answer82.TabIndex = 1;
+            this.answer82.Text = "Goldeneye 007";
+            this.answer82.UseVisualStyleBackColor = true;
+            this.answer82.Click += new System.EventHandler(this.answer82_Click);
+            // 
+            // answer83
+            // 
+            this.answer83.Location = new System.Drawing.Point(270, 20);
+            this.answer83.Name = "answer83";
+            this.answer83.Size = new System.Drawing.Size(75, 48);
+            this.answer83.TabIndex = 2;
+            this.answer83.Text = "Counter Force";
+            this.answer83.UseVisualStyleBackColor = true;
+            this.answer83.Click += new System.EventHandler(this.answer83_Click);
             // 
             // HardQuiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1106, 588);
+            this.ClientSize = new System.Drawing.Size(369, 292);
             this.Controls.Add(this.answersGroup0);
             this.Controls.Add(this.answersGroup8);
             this.Controls.Add(this.answersGroup7);
             this.Controls.Add(this.answersGroup3);
-            this.Controls.Add(this.answersGroup1);
-            this.Controls.Add(this.answersGroup4);
-            this.Controls.Add(this.answersGroup5);
-            this.Controls.Add(this.answersGroup6);
             this.Controls.Add(this.answersGroup9);
+            this.Controls.Add(this.answersGroup4);
+            this.Controls.Add(this.answersGroup1);
             this.Controls.Add(this.answersGroup2);
+            this.Controls.Add(this.answersGroup6);
+            this.Controls.Add(this.answersGroup5);
             this.Controls.Add(this.Question2);
             this.Controls.Add(this.question1);
             this.Controls.Add(this.muffinButton);
@@ -596,10 +597,10 @@
             this.Text = "Hard Quiz";
             this.Load += new System.EventHandler(this.HardQuiz_Load);
             this.answersGroup0.ResumeLayout(false);
-            this.answersGroup4.ResumeLayout(false);
             this.answersGroup9.ResumeLayout(false);
-            this.answersGroup8.ResumeLayout(false);
+            this.answersGroup4.ResumeLayout(false);
             this.answersGroup1.ResumeLayout(false);
+            this.answersGroup8.ResumeLayout(false);
             this.answersGroup2.ResumeLayout(false);
             this.answersGroup3.ResumeLayout(false);
             this.answersGroup5.ResumeLayout(false);
