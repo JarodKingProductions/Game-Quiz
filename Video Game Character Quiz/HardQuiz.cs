@@ -420,6 +420,11 @@ namespace Video_Game_Character_Quiz
 
         }
 
+        private void finalScoreText_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 

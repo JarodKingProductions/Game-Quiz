@@ -33,6 +33,8 @@
             this.question1 = new System.Windows.Forms.Label();
             this.Question2 = new System.Windows.Forms.Label();
             this.answersGroup0 = new System.Windows.Forms.GroupBox();
+            this.finalScoreBox = new System.Windows.Forms.GroupBox();
+            this.finalScoreText = new System.Windows.Forms.Label();
             this.button01 = new System.Windows.Forms.Button();
             this.button02 = new System.Windows.Forms.Button();
             this.button03 = new System.Windows.Forms.Button();
@@ -49,6 +51,9 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.answersGroup8 = new System.Windows.Forms.GroupBox();
+            this.answer83 = new System.Windows.Forms.Button();
+            this.answer82 = new System.Windows.Forms.Button();
+            this.answer81 = new System.Windows.Forms.Button();
             this.answersGroup2 = new System.Windows.Forms.GroupBox();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -72,9 +77,6 @@
             this.button81 = new System.Windows.Forms.Button();
             this.button83 = new System.Windows.Forms.Button();
             this.button82 = new System.Windows.Forms.Button();
-            this.answer81 = new System.Windows.Forms.Button();
-            this.answer82 = new System.Windows.Forms.Button();
-            this.answer83 = new System.Windows.Forms.Button();
             this.pictureBox0 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -86,9 +88,8 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.trophyPhoto = new System.Windows.Forms.PictureBox();
-            this.finalScoreBox = new System.Windows.Forms.GroupBox();
-            this.finalScoreText = new System.Windows.Forms.Label();
             this.answersGroup0.SuspendLayout();
+            this.finalScoreBox.SuspendLayout();
             this.answersGroup9.SuspendLayout();
             this.answersGroup4.SuspendLayout();
             this.answersGroup1.SuspendLayout();
@@ -109,7 +110,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trophyPhoto)).BeginInit();
-            this.finalScoreBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // muffinButton
@@ -142,7 +142,6 @@
             // 
             // answersGroup0
             // 
-            this.answersGroup0.Controls.Add(this.finalScoreBox);
             this.answersGroup0.Controls.Add(this.button01);
             this.answersGroup0.Controls.Add(this.button02);
             this.answersGroup0.Controls.Add(this.button03);
@@ -152,6 +151,26 @@
             this.answersGroup0.TabIndex = 1;
             this.answersGroup0.TabStop = false;
             this.answersGroup0.Text = "Answers";
+            // 
+            // finalScoreBox
+            // 
+            this.finalScoreBox.Controls.Add(this.finalScoreText);
+            this.finalScoreBox.Location = new System.Drawing.Point(12, 170);
+            this.finalScoreBox.Name = "finalScoreBox";
+            this.finalScoreBox.Size = new System.Drawing.Size(345, 84);
+            this.finalScoreBox.TabIndex = 35;
+            this.finalScoreBox.TabStop = false;
+            this.finalScoreBox.Text = "Final Score:";
+            this.finalScoreBox.Visible = false;
+            // 
+            // finalScoreText
+            // 
+            this.finalScoreText.Location = new System.Drawing.Point(44, 32);
+            this.finalScoreText.Name = "finalScoreText";
+            this.finalScoreText.Size = new System.Drawing.Size(236, 23);
+            this.finalScoreText.TabIndex = 0;
+            this.finalScoreText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.finalScoreText.Click += new System.EventHandler(this.finalScoreText_Click);
             // 
             // button01
             // 
@@ -327,6 +346,36 @@
             this.answersGroup8.TabStop = false;
             this.answersGroup8.Text = "Answers";
             this.answersGroup8.Visible = false;
+            // 
+            // answer83
+            // 
+            this.answer83.Location = new System.Drawing.Point(270, 20);
+            this.answer83.Name = "answer83";
+            this.answer83.Size = new System.Drawing.Size(75, 48);
+            this.answer83.TabIndex = 2;
+            this.answer83.Text = "Counter Force";
+            this.answer83.UseVisualStyleBackColor = true;
+            this.answer83.Click += new System.EventHandler(this.answer83_Click);
+            // 
+            // answer82
+            // 
+            this.answer82.Location = new System.Drawing.Point(136, 19);
+            this.answer82.Name = "answer82";
+            this.answer82.Size = new System.Drawing.Size(75, 49);
+            this.answer82.TabIndex = 1;
+            this.answer82.Text = "Goldeneye 007";
+            this.answer82.UseVisualStyleBackColor = true;
+            this.answer82.Click += new System.EventHandler(this.answer82_Click);
+            // 
+            // answer81
+            // 
+            this.answer81.Location = new System.Drawing.Point(6, 20);
+            this.answer81.Name = "answer81";
+            this.answer81.Size = new System.Drawing.Size(75, 48);
+            this.answer81.TabIndex = 0;
+            this.answer81.Text = "Metal Gear Solid";
+            this.answer81.UseVisualStyleBackColor = true;
+            this.answer81.Click += new System.EventHandler(this.answer81_Click);
             // 
             // answersGroup2
             // 
@@ -569,36 +618,6 @@
             this.button82.Size = new System.Drawing.Size(75, 23);
             this.button82.TabIndex = 0;
             // 
-            // answer81
-            // 
-            this.answer81.Location = new System.Drawing.Point(6, 20);
-            this.answer81.Name = "answer81";
-            this.answer81.Size = new System.Drawing.Size(75, 48);
-            this.answer81.TabIndex = 0;
-            this.answer81.Text = "Metal Gear Solid";
-            this.answer81.UseVisualStyleBackColor = true;
-            this.answer81.Click += new System.EventHandler(this.answer81_Click);
-            // 
-            // answer82
-            // 
-            this.answer82.Location = new System.Drawing.Point(136, 19);
-            this.answer82.Name = "answer82";
-            this.answer82.Size = new System.Drawing.Size(75, 49);
-            this.answer82.TabIndex = 1;
-            this.answer82.Text = "Goldeneye 007";
-            this.answer82.UseVisualStyleBackColor = true;
-            this.answer82.Click += new System.EventHandler(this.answer82_Click);
-            // 
-            // answer83
-            // 
-            this.answer83.Location = new System.Drawing.Point(270, 20);
-            this.answer83.Name = "answer83";
-            this.answer83.Size = new System.Drawing.Size(75, 48);
-            this.answer83.TabIndex = 2;
-            this.answer83.Text = "Counter Force";
-            this.answer83.UseVisualStyleBackColor = true;
-            this.answer83.Click += new System.EventHandler(this.answer83_Click);
-            // 
             // pictureBox0
             // 
             this.pictureBox0.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox0.Image")));
@@ -719,30 +738,13 @@
             this.trophyPhoto.TabStop = false;
             this.trophyPhoto.Visible = false;
             // 
-            // finalScoreBox
-            // 
-            this.finalScoreBox.Controls.Add(this.finalScoreText);
-            this.finalScoreBox.Location = new System.Drawing.Point(0, 5);
-            this.finalScoreBox.Name = "finalScoreBox";
-            this.finalScoreBox.Size = new System.Drawing.Size(345, 84);
-            this.finalScoreBox.TabIndex = 35;
-            this.finalScoreBox.TabStop = false;
-            this.finalScoreBox.Text = "Final Score:";
-            this.finalScoreBox.Visible = false;
-            // 
-            // finalScoreText
-            // 
-            this.finalScoreText.Location = new System.Drawing.Point(44, 33);
-            this.finalScoreText.Name = "finalScoreText";
-            this.finalScoreText.Size = new System.Drawing.Size(236, 23);
-            this.finalScoreText.TabIndex = 0;
-            // 
             // HardQuiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 292);
+            this.Controls.Add(this.finalScoreBox);
             this.Controls.Add(this.trophyPhoto);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -772,6 +774,7 @@
             this.Text = "Hard Quiz";
             this.Load += new System.EventHandler(this.HardQuiz_Load);
             this.answersGroup0.ResumeLayout(false);
+            this.finalScoreBox.ResumeLayout(false);
             this.answersGroup9.ResumeLayout(false);
             this.answersGroup4.ResumeLayout(false);
             this.answersGroup1.ResumeLayout(false);
@@ -792,7 +795,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trophyPhoto)).EndInit();
-            this.finalScoreBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
